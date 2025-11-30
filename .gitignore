@@ -1,0 +1,33 @@
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Сборка
+out/
+target/
+
+# Selenide
+build/reports/tests/
+test-results/
+
+# Приложение
+*.jar
+!artifacts/*.jar
+
+# Allure
+allure-results/
