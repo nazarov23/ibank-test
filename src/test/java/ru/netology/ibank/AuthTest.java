@@ -14,11 +14,8 @@ public class AuthTest {
 
     @BeforeEach
     void setup() {
-        // Настройка Selenide
-        Configuration.browser = "chrome";
+        // Только необходимые настройки
         Configuration.browserSize = "1920x1080";
-        Configuration.headless = true;
-        Configuration.timeout = 15000;
 
         // Открываем страницу интернет-банка
         open("http://localhost:9999");
